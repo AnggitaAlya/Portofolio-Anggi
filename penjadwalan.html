@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Overview proyek sistem penjadwalan PMI Kota Semarang oleh Anggita Alya Salsabila.">
+
+  <title>Overview Project Sistem Penjadwalan | Anggita Alya Salsabila</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+  <main class="overview-page section-light">
+    <div class="container overview-container">
+
+      <!-- HEADER -->
+      <header class="overview-header">
+        <p class="section-label">PROJECT OVERVIEW</p>
+        <h1>Overview Project Sistem Penjadwalan</h1>
+        <p>
+          Pengembangan sistem informasi berbasis web untuk mendukung
+          pengelolaan jadwal kegiatan operasional PMI Kota Semarang.
+        </p>
+      </header>
+
+      <!-- PROBLEM -->
+      <section class="overview-section">
+        <h2>
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          Problem
+        </h2>
+
+        <p>
+          Proses pencatatan dan monitoring jadwal kegiatan operasional 
+          di lingkungan PMI Kota Semarang sebelumnya masih dilakukan secara 
+          manual menggunakan Google Sheets. Pendekatan ini dinilai kurang 
+          efektif dalam hal sentralisasi informasi, rentan terhadap ketidaksengajaan 
+          perubahan data, serta kurang representatif dan dinamis jika ingin diproyeksikan 
+          sebagai papan informasi publik bagi seluruh pegawai di area kantor.
+        </p>
+      </section>
+
+      <!-- SOLUTION -->
+      <section class="overview-section">
+        <h2>
+          <i class="fa-solid fa-lightbulb"></i>
+          Solution
+        </h2>
+
+        <p>
+          Merancang dan mengembangkan sistem manajemen penjadwalan berbasis web 
+          yang terstruktur dengan mengimplementasikan fungsi CRUD (Create, Read, Update, Delete). 
+          Sistem ini secara khusus didesain dengan antarmuka (UI/UX) yang bersih dan 
+          responsif agar optimal saat ditayangkan secara penuh (layaknya dashboard informasi digital) 
+          pada TV/Screen yang berada di lingkungan kantor PMI Kota Semarang.
+        </p>
+      </section>
+
+      <!-- HASIL -->
+      <section class="overview-section">
+        <h2>
+          <i class="fa-solid fa-chart-column"></i>
+          Hasil
+        </h2>
+
+        <p>
+          Terciptanya sebuah sistem penjadwalan terdigitalisasi yang berfungsi 
+          sebagai papan informasi digital terpusat. Kini, pembaruan data menjadi 
+          jauh lebih terstruktur dan seluruh pegawai/karyawan PMI Kota Semarang dapat 
+          memantau update jadwal kegiatan operasional harian secara real-time, transparan, 
+          dan mudah diakses langsung melalui layar TV kantor.
+        </p>
+      </section>
+
+      <!-- LINK DAN PREVIEW -->
+      <section class="overview-section">
+        <h2>
+          <i class="fa-solid fa-link"></i>
+          Link &amp; Preview
+        </h2>
+
+        <div class="overview-links">
+          <!-- Ganti dengan link repository proyek milikmu -->
+          <a class="overview-link"
+             href="https://github.com/AnggitaAlya/ProjectPenjadwalanPMI.git"
+             target="_blank"
+             rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            Repository GitHub
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="preview-slider">
+
+        <button class="slider-button slider-prev"
+                type="button"
+                aria-label="Gambar sebelumnya">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="preview-track" id="previewTrack">
+
+            <figure class="preview-item">
+            <img src="images/login.png"
+                alt="Preview sistem penjadwalan pertama">
+            <figcaption>Preview 1 — Tampilan Login</figcaption>
+            </figure>
+
+            <figure class="preview-item">
+            <img src="images/dashboard.png"
+                alt="Preview sistem penjadwalan kedua">
+            <figcaption>Preview 2 — Tampilan Dashboard</figcaption>
+            </figure>
+
+            <figure class="preview-item">
+            <img src="images/input.png"
+                alt="Preview sistem penjadwalan ketiga">
+            <figcaption>Preview 3 — Tampilan Input Jadwal</figcaption>
+            </figure>
+
+             <figure class="preview-item">
+            <img src="images/register.png"
+                alt="Preview sistem penjadwalan ketiga">
+            <figcaption>Preview 4 — Tampilan Register</figcaption>
+            </figure>
+
+        </div>
+
+        <button class="slider-button slider-next"
+                type="button"
+                aria-label="Gambar berikutnya">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        </div>
+
+        <div class="slider-indicators" id="sliderIndicators">
+        <button type="button" aria-label="Tampilkan gambar 1" class="active"></button>
+        <button type="button" aria-label="Tampilkan gambar 2"></button>
+        <button type="button" aria-label="Tampilkan gambar 3"></button>
+        <button type="button" aria-label="Tampilkan gambar 4"></button>
+        </div>
+
+      </section>
+
+      <!-- NAVIGASI BAWAH -->
+      <footer class="overview-footer">
+        <a href="index.html#experience" class="back-link">
+          <i class="fa-solid fa-arrow-left"></i>
+          Kembali ke Portofolio
+        </a>
+
+        <a href="ticketing.html" class="back-link">
+          Lihat Proyek Ticketing
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- JAVASCRIPT SLIDER PREVIEW -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const track = document.getElementById("previewTrack");
+      const slides = Array.from(
+        track.querySelectorAll(".preview-item")
+      );
+      const prevButton = document.querySelector(".slider-prev");
+      const nextButton = document.querySelector(".slider-next");
+      const indicators = Array.from(
+        document.querySelectorAll("#sliderIndicators button")
+      );
+
+      let currentIndex = 0;
+
+      function showSlide(index) {
+        currentIndex = (index + slides.length) % slides.length;
+
+        const slide = slides[currentIndex];
+
+        track.scrollTo({
+          left: slide.offsetLeft - slides[0].offsetLeft,
+          behavior: "smooth"
+        });
+
+        indicators.forEach((button, i) => {
+          button.classList.toggle("active", i === currentIndex);
+        });
+      }
+
+      prevButton.addEventListener("click", function () {
+        showSlide(currentIndex - 1);
+      });
+
+      nextButton.addEventListener("click", function () {
+        showSlide(currentIndex + 1);
+      });
+
+      indicators.forEach((button, index) => {
+        button.addEventListener("click", function () {
+          showSlide(index);
+        });
+      });
+
+      // Perbarui indikator ketika gambar digeser manual
+      let scrollTimer;
+
+      track.addEventListener("scroll", function () {
+        clearTimeout(scrollTimer);
+
+        scrollTimer = setTimeout(function () {
+          const trackLeft = track.getBoundingClientRect().left;
+
+          let nearestIndex = 0;
+          let nearestDistance = Infinity;
+
+          slides.forEach((slide, index) => {
+            const distance = Math.abs(
+              slide.getBoundingClientRect().left - trackLeft
+            );
+
+            if (distance < nearestDistance) {
+              nearestDistance = distance;
+              nearestIndex = index;
+            }
+          });
+
+          currentIndex = nearestIndex;
+
+          indicators.forEach((button, i) => {
+            button.classList.toggle("active", i === currentIndex);
+          });
+        }, 100);
+      });
+    });
+  </script>
+
+</body>
+</html>

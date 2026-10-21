@@ -1,0 +1,906 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Anggita Alya Salsabila, fresh graduate Teknik Informatika.">
+  <title>Portofolio | Anggita Alya Salsabila</title>
+
+  <!-- Menghubungkan file CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font dari Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Ikon Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Menghubungkan file JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGASI -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Anggita Resume & Porto<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#certifications">Education</a></li>
+        <li><a href="#contact" class="nav-contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BERANDA -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            Teknik Informatika 
+          </p>
+
+          <h1><span>Anggita Alya Salsabila</span></h1>
+
+          <p class="hero-description">
+            Saya merupakan lulusan Teknik Informatika Universitas Dian Nuswantoro dengan IPK 3.45. 
+            Saya memiliki ketertarikan pada pengembangan sistem berbasis web, pengelolaan data, 
+            infrastruktur IT, serta penerapan teknologi untuk menyelesaikan permasalahan secara efektif.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Lihat Proyek <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="button button-outline">
+              Hubungi Saya
+            </a>
+          </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <!-- Pastikan foto berada di images/foto-anggita.jpg -->
+            <img src="images/pas foto.jpg" alt="Foto Anggita Alya Salsabila"
+                 class="profile-photo"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+            <div class="photo-placeholder">
+              <i class="fa-solid fa-user"></i>
+              <span>Tambahkan foto kamu</span>
+            </div>
+          </div>
+
+          <div class="floating-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <strong>S1 Teknik Informatika</strong>
+              <span>Fresh Graduate · 2026</span>
+            </div>
+          </div>
+
+          <div class="decor decor-one"></div>
+          <div class="decor decor-two"></div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <!-- TENTANG SAYA -->
+    <section class="section section-light" id="about">
+    <div class="container">
+
+        <div class="section-heading">
+        <p class="section-label">ABOUT ME</p>
+        <h2>Mengenal Saya Lebih Dekat</h2>
+        </div>
+
+        <div class="about-intro">
+        <p>
+            Saya adalah lulusan <strong>Teknik Informatika Universitas Dian
+            Nuswantoro (IPK 3.45)</strong> yang memiliki ketertarikan
+            dalam membangun solusi teknologi yang efisien dan terstruktur.
+            Didukung oleh pengalaman magang sebagai Staff IT di PMI Kota
+            Semarang, saya memadukan kemampuan teknis dalam pengembangan
+            sistem, pengelolaan infrastruktur IT, dan pengolahan data dengan
+            pola pikir analitis untuk mendukung efektivitas proses kerja.
+        </p>
+        </div>
+
+        <h3 class="about-subtitle">Apa yang saya bawa ke dalam tim:</h3>
+
+        <div class="about-list">
+
+        <div class="about-item">
+            <div class="about-icon">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <div>
+            <h3>Tech &amp; Infrastructure</h3>
+            <p>
+                Memiliki pengalaman dalam pengembangan sistem penjadwalan
+                dan ticketing berbasis web, konfigurasi server lokal,
+                instalasi sistem, serta pengelolaan basis data menggunakan MySQL.
+            </p>
+            </div>
+        </div>
+
+        <div class="about-item">
+            <div class="about-icon">
+            <i class="fa-solid fa-chart-column"></i>
+            </div>
+            <div>
+            <h3>Data Management &amp; Analytical Problem Solving</h3>
+            <p>
+                Mampu mengumpulkan, mengolah, memvalidasi, dan menganalisis
+                data untuk menghasilkan informasi yang akurat dan terstruktur
+                sebagai pendukung kebutuhan operasional dan pelaporan.
+            </p>
+            </div>
+        </div>
+
+        <div class="about-item">
+            <div class="about-icon">
+            <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div>
+            <h3>Professional Traits</h3>
+            <p>
+                Memiliki ketelitian, kemampuan analitis, dan keterampilan
+                pemecahan masalah yang baik. Saya juga adaptif, bertanggung
+                jawab, serta mampu bekerja secara mandiri maupun
+                berkolaborasi dalam tim.
+            </p>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="about-tech">
+        <h3>Technical Skills</h3>
+        <div class="about-tech-list">
+            <span>Data Science</span>
+            <span>Machine Learning</span>
+            <span>Artificial Intelligence</span>
+            <span>Web Development</span>
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>Deep Learning</span>
+            <span>Computer Vision</span>
+            <span>Microsoft Office</span>
+            <span>Google Workspace</span>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- PENGALAMAN -->
+    <section class="section" id="experience">
+    <div class="container">
+
+        <div class="section-heading">
+        <p class="section-label">Experience</p>
+        </div>
+
+        <div class="timeline">
+        <div class="timeline-item">
+
+            <div class="timeline-marker">
+            <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <div class="timeline-card">
+
+            <div class="timeline-top">
+                <div>
+                <h3>Staff IT (Magang)</h3>
+                <p class="company">PMI Kota Semarang</p>
+                </div>
+                <span class="date-badge">Maret – April 2025</span>
+            </div>
+
+            <div class="experience-list">
+
+                <div class="experience-item">
+                <h4>
+                    <i class="fa-solid fa-briefcase"></i>
+                    Role &amp; Focus
+                </h4>
+                <p>
+                    Berperan selama kurang lebih 1,5 bulan sebagai Staff IT
+                    (Magang) di PMI Kota Semarang, dengan fokus pada digitalisasi
+                    sistem pelaporan internal agar informasi organisasi menjadi
+                    lebih terstruktur dan mudah dikelola.
+                </p>
+                </div>
+
+                <div class="experience-item">
+                <h4>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    Tech Implementation
+                </h4>
+                <p>
+                    Merancang prototype UI/UX berbasis web menggunakan HTML,
+                    CSS, dan JavaScript, serta menyusun simulasi alur backend
+                    untuk sistem ticketing request layanan IT. Melakukan
+                    konfigurasi server lokal yang meliputi instalasi sistem
+                    operasi, web server, dan basis data untuk mendukung
+                    penerapan sistem penjadwalan kegiatan operasional
+                    PMI Kota Semarang.
+                </p>
+                </div>
+
+                <div class="experience-item">
+                <h4>
+                    <i class="fa-solid fa-database"></i>
+                    Data Management
+                </h4>
+                <p>
+                    Mengumpulkan, mengolah, memvalidasi, dan mengategorikan
+                    data hasil kuesioner psikologis dalam jumlah besar
+                    menggunakan spreadsheet untuk mendukung ketepatan
+                    informasi dan kebutuhan pelaporan internal.
+                </p>
+                </div>
+
+            </div>
+          
+            <div class="experience-details">
+            <a href="penjadwalan.html"
+                class="experience-detail-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-solid fa-calendar-check"></i>
+                Sistem Penjadwalan
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="ticketing.html"
+                class="experience-detail-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-solid fa-ticket"></i>
+                Sistem Ticketing
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            </div>
+
+            <p class="experience-note">
+                Lihat bagian Proyek untuk informasi lebih lanjut mengenai
+                sistem yang dikembangkan.
+            </p>
+
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+     <!-- PROYEK -->
+    <section class="section section-light" id="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">Project Gallery</p>
+          <h2>Project &amp; Feature Research</h2>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- PROYEK 1: KLASIFIKASI SAMPAH -->
+          <article class="project-card">
+            <div class="project-visual project-green">
+              <i class="fa-solid fa-recycle"></i>
+              <span>DEEP LEARNING · COMPUTER VISION</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-category">Tugas Akhir</p>
+
+              <h3>Klasifikasi Sampah Menggunakan EfficientNetB0</h3>
+
+              <p>
+                Penerapan arsitektur deep learning EfficientNetB0 berbasis
+                citra digital untuk mengklasifikasikan sampah organik,
+                anorganik, dan B3 secara otomatis.
+              </p>
+              <div class="project-description">
+                <p>
+                   🚨 The Problem: Proses klasifikasi sampah secara manual membutuhkan waktu dan ketelitian untuk membedakan 
+                sampah organik, anorganik, dan B3 yang memiliki karakteristik visual beragam. 
+                Selain itu, ketidakseimbangan jumlah citra dalam dataset dapat menyebabkan model kurang optimal dalam mengenali kelas minoritas, 
+                sehingga diperlukan pendekatan deep learning yang mampu meningkatkan akurasi dan keseimbangan hasil klasifikasi.</p>
+                <p>
+                💡 The Solution: Menerapkan arsitektur deep learning EfficientNetB0 untuk mengklasifikasikan citra 
+                sampah ke dalam tiga kategori, yaitu organik, anorganik, dan B3. Tahapan penelitian meliputi 
+                prapemrosesan dan standardisasi citra, augmentasi data, pembagian dataset menjadi data latih, 
+                validasi, dan pengujian dengan rasio 70:20:10, serta penerapan class weighting untuk membantu 
+                menangani ketidakseimbangan kelas. Model dilatih menggunakan Adam dengan learning rate 0.0001 dan melalui proses fine-tuning. </p>
+                <p>
+                📊 Key Findings: Model EfficientNetB0 memperoleh akurasi terbaik sebesar 96.87% dengan F1-score 0.97. 
+                Hasil ini menunjukkan kemampuan model yang baik dalam mengklasifikasikan citra sampah 
+                ke dalam kategori organik, anorganik, dan B3. </p>
+
+              </div>
+
+              <div class="tag-list">
+                <span>Python</span>
+                <span>EfficientNetB0</span>
+                <span>Deep Learning</span>
+                <span>Computer Vision</span>
+              </div>
+
+              
+                <div class="project-actions">
+                <a
+                    href="https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/9360"
+                    class="text-button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Jurnal <i class="fa-solid fa-book-open"></i>
+                </a>
+                <a
+                    href="https://doi.org/10.30865/jurikom.v12i6.9360"
+                    class="text-button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    DOI <i class="fa-solid fa-link"></i>
+                </a>
+                </div>   
+            </div>
+          </article>
+
+          <!-- PROYEK 2: SISTEM PENJADWALAN DAN TICKETING -->
+          <article class="project-card">
+            <div class="project-visual project-blue">
+              <i class="fa-solid fa-calendar-check"></i>
+              <span>Project TI & Prototype Sistem Monitoring BBM</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-category">Manajemen Proyek TI</p>
+
+              <h3>Monitoring BBM</h3>
+
+              <p>
+                🚨 Problem :
+                  Pengelolaan proyek teknologi informasi yang tidak terstruktur seringkali mengakibatkan over-budget, 
+                  keterlambatan jadwal, dan hasil yang tidak sesuai dengan kebutuhan bisnis. Dalam studi kasus sistem 
+                  pemantauan bahan bakar minyak (BBM), ketiadaan sistem pencatatan yang terdigitalisasi membuat pengawasan 
+                  alur distribusi dan konsumsi menjadi tidak transparan, tidak efisien, dan sulit dilacak.
+                </p>
+                <p>
+                  💡 Solution :
+                  Melakukan simulasi siklus hidup manajemen proyek TI secara komprehensif (mencakup fase perencanaan, 
+                  penjadwalan, alokasi sumber daya, hingga manajemen risiko) untuk pengembangan Sistem Monitoring BBM. 
+                  Simulasi manajerial ini juga diiringi dengan perancangan prototype antarmuka (UI/UX) untuk memvisualisasikan 
+                  fungsionalitas dasbor pelacakan dan alur kerja sistem yang akan dibangun.
+                </p>
+                <p>
+                  📊 Hasil :
+                  Menghasilkan dokumen perencanaan proyek yang terstruktur (meliputi Work Breakdown Structure/WBS, timeline pengerjaan,
+                  dan estimasi anggaran) beserta rancangan prototype sistem monitoring BBM yang representatif. Proyek ini mendemonstrasikan 
+                  kemampuan dalam menyelaraskan tata kelola manajerial proyek dengan perancangan teknis visual.
+              </p>
+              <div class="project-notion-link">
+                <a
+                  href="https://app.notion.com/p/Project-Sistem-Monitoring-BBM-151400d983f980e4b342f1f93f2ae5f1?source=copy_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-button"
+                >
+                  <i class="fa-solid fa-book-open"></i>
+                  Lihat Dokumentasi Proyek
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- Preview Prototype Monitoring BBM -->
+              <div class="project-slider" id="monitoringSlider">
+
+                <button
+                  class="slider-button slider-prev"
+                  type="button"
+                  aria-label="Gambar sebelumnya"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="preview-track" id="previewTrack">
+
+                  <figure class="preview-item">
+                    <img
+                      src="images/MPTI 1.jpg"
+                      alt="Prototype Monitoring BBM - Login"
+                    >
+                    <figcaption>Preview 1 — Desain Login Page</figcaption>
+                  </figure>
+
+                  <figure class="preview-item">
+                    <img
+                      src="images/MPTI 2.jpg"
+                      alt="Prototype Monitoring BBM - Dashboard"
+                    >
+                    <figcaption>Preview 2 — Desain Dashboard</figcaption>
+                  </figure>
+
+                  <figure class="preview-item">
+                    <img
+                      src="images/MPTI 3.jpg"
+                      alt="Prototype Monitoring BBM - Input Data"
+                    >
+                    <figcaption>Preview 3 — Desain Monitoring</figcaption>
+                  </figure>
+
+                  <figure class="preview-item">
+                    <img
+                      src="images/MPTI 4.jpg"
+                      alt="Prototype Monitoring BBM - Register"
+                    >
+                    <figcaption>Preview 4 — Desain Database</figcaption>
+                  </figure>
+
+                  <figure class="preview-item">
+                    <img
+                      src="images/MPTI 5.jpg"
+                      alt="Prototype Monitoring BBM - Register"
+                    >
+                    <figcaption>Preview 5 — Desain Edit Profile</figcaption>
+                  </figure>
+
+                </div>
+
+                <button
+                  class="slider-button slider-next"
+                  type="button"
+                  aria-label="Gambar berikutnya"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+              </div>
+
+              <div class="slider-indicators" id="sliderIndicators">
+                <button type="button" aria-label="Tampilkan gambar 1"
+                  class="active"></button>
+                <button type="button" aria-label="Tampilkan gambar 2"></button>
+                <button type="button" aria-label="Tampilkan gambar 3"></button>
+                <button type="button" aria-label="Tampilkan gambar 4"></button>
+              </div>
+
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- CERTIFICATIONS & WORKSHOPS -->
+    <section class="section section-light" id="certifications">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">Education</p>
+          <h2>CERTIFICATIONS & WORKSHOP</h2>
+          <p>
+            Sertifikasi kompetensi dan kegiatan pelatihan yang mendukung
+            pengembangan kemampuan di bidang Teknologi Informasi,
+            Data Science, dan pengembangan sistem.
+          </p>
+        </div>
+
+        <div class="certification-grid">
+
+          <!-- SERTIFIKASI 1 -->
+          <article class="certification-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-award"></i>
+            </div>
+
+            <p class="section-label">SERTIFIKASI KOMPETENSI</p>
+            <h3>Certified competency in the complete data science lifecycle.</h3>
+            <p class="certification-organizer">
+               Ilmuan Data Madya | Associate Data Scientist | LSP UDINUS </p>
+            <p>
+              📌 Review Singkat Kegiatan :
+              Sertifikasi ini merupakan uji kompetensi resmi yang diselenggarakan oleh LSP untuk memvalidasi keahlian profesional sebagai 
+              seorang Associate Data Scientist (Ilmuan Data Madya). Pengujian difokuskan pada penguasaan siklus hidup sains data (data science lifecycle) secara menyeluruh yang 
+              mengacu pada standar industri, mulai dari tahap akuisisi data mentah hingga tahap evaluasi akhir performa model.</p>
+
+              <p>🎯 Hasil Kompetensi yang Diujikan :
+              Berdasarkan Standar Kompetensi Kerja Nasional Indonesia (SKKNI) untuk skema Ilmuan Data Madya, 
+              saya telah teruji dan dinyatakan kompeten dalam mengimplementasikan serangkaian unit keahlian berikut:</p>
+              
+            <ul class="competency-list">
+              <li>
+                <strong>Data Preparation:</strong>
+                Mengumpulkan, menelaah, dan memvalidasi kelayakan data.
+              </li>
+              <li>
+                <strong>Data Preprocessing:</strong>
+                Menentukan objek data, melakukan pembersihan data (Data Cleaning), serta mengkonstruksi data.
+              </li>
+              <li>
+                <strong>Modelling &amp; Evaluation:</strong>
+                Menentukan label data, membangun model algoritma (Constructing the Model), dan mengevaluasi hasil pemodelan tersebut secara metrik.
+              </li>
+            </ul>
+            <div class="certification-link">
+              <span>
+                <i class="fa-solid fa-certificate"></i>
+                Sertifikasi
+              </span>
+              <a href="https://drive.google.com/file/d/1eIQd1YK5WyIBb42dD-jFgxNdJgKgoC8M/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Lihat Sertifikat
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- SERTIFIKASI 2 -->
+          <article class="certification-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-language"></i>
+            </div>
+
+            <p class="section-label">LANGUAGE PROFICIENCY</p>
+            <h3>English Proficiency Assessment (EPA)</h3>
+            <p class="certification-organizer">
+              Language Proficiency Assessment | CFLT UDINUS | Achieved a TOEFL- equivalent score of 433.
+            </p>
+            <p>
+              📌 Review Singkat Kegiatan : 
+              Kegiatan ini tidak sekadar pengujian, melainkan diawali dengan rangkaian pertemuan 
+              bimbingan intensif yang diawali dengan pre-test untuk memetakan kemampuan dasar. Setelah itu, 
+              peserta dilatih melalui berbagai simulasi komprehensif yang membedah tiga komponen utama ujian: 
+              Listening Comprehension, Structure and Written Expression, serta Reading Comprehension. 
+              Proses persiapan yang matang ini dirancang untuk membiasakan ritme pengerjaan sebelum akhirnya
+              menghadapi ujian sertifikasi yang sesungguhnya (post-test).</p>
+              <p>
+              🏅 Hasil Kompetensi yang Diujikan : 
+              Melalui evaluasi akhir pada tahap post-test, saya berhasil meraih skor setara TOEFL sebesar 433.
+              Pencapaian ini memvalidasi tingkat kemahiran berbahasa Inggris yang solid, membuktikan penguasaan tata bahasa, 
+              literasi bacaan, dan pemahaman audio yang sangat memadai untuk mendukung komunikasi di lingkungan kerja profesional maupun akademis internasional.
+            </p>
+            <div class="certification-link">
+              <span>
+                <i class="fa-solid fa-file-lines"></i>
+                Hasil Penilaian
+              </span>
+              <a href="https://drive.google.com/file/d/1LCSftJZWLrHlyk-xIdvLOvtAIErSLMKk/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Lihat Sertifikat
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- WORKSHOP 1 -->
+          <article class="certification-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <p class="section-label">WORKSHOP</p>
+            <h3>Workshop DNCC 2024 (Machine Learning)</h3>
+            <p class="certification-organizer">
+            How to Train Your Data
+            </p>
+            <p>
+              📌 Review Singkat Kegiatan : 
+              Workshop ini difokuskan pada pemahaman mendalam dan praktik langsung mengenai siklus 
+              hidup pelatihan data (data training lifecycle). Fokus utamanya adalah tahapan krusial 
+              sebelum sebuah model diciptakan, meliputi teknik pembersihan data (data cleaning), 
+              penanganan data yang tidak lengkap, rekayasa fitur (feature engineering), hingga cara 
+              melatih data tersebut agar algoritma Machine Learning dapat mengenali pola dengan optimal tanpa mengalami overfitting.
+            </p>
+            <p>
+              🔬 Prediksi Level Diabetes :
+              Sebagai bentuk implementasi dari materi data training tersebut, pengetahuan yang didapat 
+              langsung diaplikasikan pada studi kasus medis, yaitu memprediksi tingkat risiko diabetes. 
+              Menggunakan dataset kesehatan, data mentah diproses dan dilatih sedemikian rupa sehingga 
+              menghasilkan sebuah model prediktif yang mampu mengklasifikasikan risiko diabetes seseorang 
+              secara akurat berdasarkan rekam metrik kesehatannya.
+            </p>
+
+            <!-- Dokumentasi Workshop -->
+            <div class="workshop-documentation">
+              <h3>
+                <i class="fa-solid fa-images"></i>
+                Dokumentasi Workshop
+              </h3>
+
+              <div class="workshop-gallery">
+                <img
+                  src="images/workshop.png"
+                  alt="Dokumentasi workshop"
+                  class="zoomable-image"
+                  onclick="openImage(this)"
+                >
+              </div>
+            </div>
+
+            <!-- Modal Zoom Gambar -->
+            <div id="imageModal" class="image-modal"
+                onclick="closeImage()">
+              <span class="close-modal">&times;</span>
+              <img id="modalImage" class="modal-content"
+                  alt="Dokumentasi workshop diperbesar">
+            </div>
+
+            <!-- Sertifikat -->
+            <div class="certification-link">
+              <span>
+                <i class="fa-solid fa-certificate"></i>
+                Sertifikat
+              </span>
+              <a href="https://drive.google.com/file/d/1vGYU37Z4BSMxVD9jiTibVekxca2HRxKs/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Lihat Sertifikat
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- WORKSHOP 2 -->
+          <article class="certification-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <p class="section-label">WORKSHOP</p>
+            <h3>Workshop BASS AI</h3>
+            <p class="certification-organizer">
+              Artificial Intelligence
+            </p>
+            <p>
+              📌 Review Kegiatan / Kompetensi
+                  Workshop intensif dengan total durasi 16 Jp ini berfokus pada penguasaan fundamental dan implementasi tren terkini Artificial 
+                  Intelligence (AI). Rincian kompetensi yang dikembangkan secara komprehensif meliputi:
+              <ul class="competency-list">
+                  <li>
+                    Pengenalan dasar AI, Generative AI, dan pemahaman terkait Large Language Models (LLM).
+                  </li>
+                  <li>
+                    Praktik peningkatan produktivitas kerja menggunakan perangkat lunak berbasis AI dan seni merancang perintah (Prompt Engineering).
+                  </li>
+                  <li>
+                    Pemahaman fundamental terkait etika dan penggunaan AI secara bertanggung jawab (Responsible AI).
+                  </li>
+                  <li>
+                    Eksplorasi langkah maju pengembangan AI serta penerapannya ke dalam ekosistem teknologi komputasi awan (Cloud Computing).
+                  </li>
+                </ul>
+            </p>
+
+            <div class="certification-link">
+              <span>
+                <i class="fa-solid fa-book-open"></i>
+                Pelatihan
+              </span>
+              <a href="https://drive.google.com/file/d/1sEd2edRD3EUb2umZDlNm_kTSlWrfvyX1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Lihat Sertifikat
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- WORKSHOP 3 -->
+          <article class="certification-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <p class="section-label">WORKSHOP</p>
+            <h3>Workshop Data Science - Bimbingan Karir</h3>
+            <p class="certification-organizer">
+              Career Development untuk Uji Kompetensi
+            </p>
+              <ul class="competency-list">
+             <p> 📌 Review Singkat Kegiatan :</p>
+             <p>
+                  Kegiatan ini merupakan workshop intensif yang dilaksanakan dalam beberapa pertemuan
+                  sebagai bentuk persiapan komprehensif sebelum menghadapi Uji Kompetensi Data Science. 
+                  Selama sesi bimbingan, fokus latihan teknis berpusat pada studi kasus Employee Attrition, 
+                  di mana peserta mempraktikkan alur pengolahan data hingga pemodelan untuk memprediksi 
+                  probabilitas perputaran atau keluarnya karyawan dari sebuah perusahaan.</p>
+
+              <p>🔬 Review Hasil Workshop :</P>
+                <P>
+                <strong>(Responsi Prediksi Diagnostik Diabetes):</strong>
+                Sebagai tahap evaluasi akhir (responsi) dari bimbingan ini, pemahaman teknis diuji secara 
+                langsung melalui perancangan model prediksi medis. Hasilnya adalah sebuah model klasifikasi 
+                biner yang dikembangkan untuk memprediksi secara akurat apakah seorang pasien terdiagnosis 
+                diabetes (Ya/Tidak) berdasarkan atribut rekam medisnya, yang sekaligus memvalidasi kesiapan 
+                teknis penuh sebelum uji kompetensi resmi.
+              </ul>
+            </p>
+
+            <div class="certification-link">
+              <span>
+                <i class="fa-solid fa-book-open"></i>
+                Pelatihan
+              </span>
+              <a href="https://drive.google.com/file/d/1giMBC_896j8im3DZO3QI9ZDli3IJPkrG/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Lihat Sertifikat
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <p class="section-label">KONTAK SAYA</p>
+
+          <!-- Social Media -->
+          <div class="hero-socials contact-socials">
+            <a href="https://mail.google.com/mail/?view=cm&to=anggitas973@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://github.com/AnggitaAlya" target="_blank"
+              rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://wa.me/6285727205857"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <p class="copy-message" id="copyMessage" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Anggita<span>.</span></a>
+      <p>© <span id="currentYear"></span> Anggita Alya Salsabila.</p>
+      <a href="#home" class="back-top" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- POP-UP DETAIL PROYEK -->
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Tutup detail">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <p class="section-label">DETAIL PROYEK</p>
+      <h2 id="modalTitle">Judul proyek</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-result" id="modalResult"></div>
+    </div>
+  </div>
+
+      <script>
+        function openImage(image) {
+          const modal = document.getElementById("imageModal");
+          const modalImage = document.getElementById("modalImage");
+
+          modalImage.src = image.src;
+          modal.style.display = "flex";
+        }
+
+        function closeImage() {
+          document.getElementById("imageModal").style.display = "none";
+        }
+
+        document.addEventListener("keydown", function(event) {
+          if (event.key === "Escape") {
+            closeImage();
+          }
+        });
+
+
+        document.querySelectorAll(".project-slider").forEach((slider) => {
+          const track = slider.querySelector(".preview-track");
+          const items = slider.querySelectorAll(".preview-item");
+          const prev = slider.querySelector(".slider-prev");
+          const next = slider.querySelector(".slider-next");
+
+          const indicators = slider.parentElement.querySelector(
+            ".slider-indicators"
+          );
+
+          if (!track || !items.length || !prev || !next) return;
+
+          let currentIndex = 0;
+
+          function goToSlide(index) {
+            currentIndex = (index + items.length) % items.length;
+
+            track.scrollTo({
+              left: items[currentIndex].offsetLeft - items[0].offsetLeft,
+              behavior: "smooth"
+            });
+
+            if (indicators) {
+              const buttons = indicators.querySelectorAll("button");
+
+              buttons.forEach((button, i) => {
+                button.classList.toggle("active", i === currentIndex);
+              });
+            }
+          }
+
+          prev.addEventListener("click", () => {
+            goToSlide(currentIndex - 1);
+          });
+
+          next.addEventListener("click", () => {
+            goToSlide(currentIndex + 1);
+          });
+
+          if (indicators) {
+            indicators.querySelectorAll("button").forEach((button, index) => {
+              button.addEventListener("click", () => {
+                goToSlide(index);
+              });
+            });
+          }
+
+          track.addEventListener("scroll", () => {
+            const trackPosition = track.scrollLeft;
+
+            let closestIndex = 0;
+            let smallestDistance = Infinity;
+
+            items.forEach((item, index) => {
+              const position = item.offsetLeft - items[0].offsetLeft;
+              const distance = Math.abs(position - trackPosition);
+
+              if (distance < smallestDistance) {
+                smallestDistance = distance;
+                closestIndex = index;
+              }
+            });
+
+            currentIndex = closestIndex;
+
+            if (indicators) {
+              indicators.querySelectorAll("button").forEach((button, index) => {
+                button.classList.toggle("active", index === currentIndex);
+              });
+            }
+          });
+        });
+
+      </script>
+
+</body>
+</html>
